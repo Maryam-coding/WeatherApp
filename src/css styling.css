@@ -1,0 +1,56 @@
+body {
+  font-family: "Antic Slab", serif;
+  font-family: "Crimson Pro", serif;
+  font-family: "Playfair Display", serif;
+  text-align: center;
+  padding: 80px;
+}
+h1 {
+  text-align: left;
+}
+.currentDate {
+  text-align: left;
+  font-size: 25px;
+}
+.currentTime {
+  text-align: left;
+  font-size: 25px;
+}
+
+.container-overall {
+  text-align: center;
+  border-color: black;
+}
+.current-location {
+  background-color: green;
+  color: #ffff;
+  padding: 5px 15px;
+  cursor: pointer;
+  border-radius: 5px;
+  border-color: green;
+  box-shadow: none;
+}
+.current-location:hover {
+  transition: all 200ms ease;
+  opacity: 1;
+  background-color: rgb(3, 173, 3);
+}
+ul {
+  list-style-type: none;
+  text-align: right;
+}
+button {
+  display: inline-block;
+  text-align: right;
+}
+.btn-btn-current {
+  float: right;
+}
+.col-sm {
+  text-align: center;
+}
+.five-day-forecast {
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+}
